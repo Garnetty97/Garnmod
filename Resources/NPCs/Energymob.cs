@@ -20,7 +20,7 @@ namespace Garnmod.Resources.NPCs
             npc.defense = 8;
             npc.damage = 26;
             npc.knockBackResist = 0.6F;
-            npc.value = 20000;
+            npc.value = 3000;
             npc.soundHit = 1;
             npc.soundKilled = 4;
             animationType = Terraria.ID.NPCID.CaveBat;
@@ -32,7 +32,7 @@ namespace Garnmod.Resources.NPCs
                 npc.lifeMax = 120;
                 npc.defense = 18;
                 npc.knockBackResist = 0.9F;
-                npc.value = 80000;
+                npc.value = 10000;
                 npc.damage = 52;
             }
         }

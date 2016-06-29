@@ -16,7 +16,6 @@ namespace Garnmod.Resources.Tiles
         {
             mineResist = 3F;
             minPick = 55;
-            soundType = 1;
             Main.tileSolid[Type] = true;
             Main.tileLighted[Type] = true;
             drop = mod.ItemType("Garngem");
@@ -59,12 +58,12 @@ namespace Garnmod.Resources.Tiles
         {
             if (closer)
             {
-                int l = rand.Next(0, 100);
+                int l = rand.Next(0, 150);
 
                 if (l == 0)
                 {
                     Vector2 loc = new Vector2(i * 16, j * 16);
-                    Dust.NewDust(loc, 50, 30, Terraria.ID.DustID.SomethingRed, 0.0F, 0.0F, 0, default(Color), 1.0F);
+                    Dust.NewDust(loc, 16, 16, mod.DustType("Garnorepassivedust"), 0.0F, 0.0F, 0, default(Color), 1.0F);
                 }
 
             }

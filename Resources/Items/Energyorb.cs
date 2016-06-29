@@ -14,18 +14,13 @@ namespace Garnmod.Resources.Items
         public override void SetDefaults()
         {
             base.SetDefaults();
-            item.name = "Energy";
+            item.name = "Energy Fragment";
             item.maxStack = 999;
             item.value = 60000;
             item.rare = 5;
             item.width = 16;
             item.height = 16;
         }
-
-     /*   public override DrawAnimation GetAnimation()
-        {
-            return new Terraria.DataStructures.DrawAnimationVertical(14, 12);
-        }*/
 
         public override void PostUpdate()
         {

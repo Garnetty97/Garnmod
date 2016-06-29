@@ -27,10 +27,10 @@ namespace Garnmod.Resources.Worlds
                 int half = Main.maxTilesY / 2;
                 int bot = Main.maxTilesY;
 
-                for (int k = 0; k < (int)((double)(Terraria.Main.maxTilesX * Main.maxTilesY) * 6E-05); k++)                                                                                                                                      //      |
+                for (int k = 0; k < (int)((double)(Terraria.Main.maxTilesX * Main.maxTilesY) * 6E-06); k++)                                                                                                                                      //      |
                 {                                                                                                                                                                                                                      //       |
                     WorldGen.TileRunner(WorldGen.genRand.Next(0, Main.maxTilesX), WorldGen.genRand.Next(half, bot),
-                         (double)WorldGen.genRand.Next(5, 6), 4, mod.TileType("Garnore"), false, 0f, 0f, false, true);
+                         (double)WorldGen.genRand.Next(6, 9), WorldGen.genRand.Next(3, 4), mod.TileType("Garnore"), false, 0f, 0f, false, true);
                 }
             }));
         }
