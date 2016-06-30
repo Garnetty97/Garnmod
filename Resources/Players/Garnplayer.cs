@@ -27,6 +27,7 @@ namespace Garnmod.Resources.Players
                     wasjumping = false;
                     canshitjump = false;
                     Main.NewText("ffffffffffffff");
+                    Main.NewText(Main.maxTilesX * Main.maxTilesY * 6E-05 * 1.4 + "");
                 }
    
             }
